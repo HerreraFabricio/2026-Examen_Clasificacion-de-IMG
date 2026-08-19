@@ -6,7 +6,7 @@ from PIL import Image
 
 
 st.set_page_config(
-    page_title="Clasificador de Imágenes CIFAR-10- Josue Fabricio Herrera",
+    page_title="Clasificador de Imágenes CIFAR-10",
     page_icon="🤖",
     layout="centered"
 )
@@ -149,7 +149,7 @@ def predecir_imagen(imagen):
 st.markdown(
     """
     <div class="titulo">
-        🤖 Clasificador de Imágenes
+        Clasificador de Imágenes-Josue Fabricio Herrera
     </div>
     """,
     unsafe_allow_html=True
