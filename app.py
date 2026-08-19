@@ -232,24 +232,17 @@ if imagen is not None:
                 imagen
             )
 
+        # NOTA: el HTML va sin indentación en cada línea.
+        # Streamlit interpreta el markdown, y las líneas con 4+
+        # espacios de sangría se muestran como bloque de código
+        # en vez de renderizarse como HTML. Por eso antes se veían
+        # las etiquetas <div> como texto plano.
         st.markdown(
-            f"""
-            <div class="resultado">
-
-                <div>
-                    PREDICCIÓN
-                </div>
-
-                <div class="prediccion">
-                    {clase}
-                </div>
-
-                <div class="confianza">
-                    Confianza: {confianza:.2f}%
-                </div>
-
-            </div>
-            """,
+            f"""<div class="resultado">
+<div>PREDICCIÓN</div>
+<div class="prediccion">{clase}</div>
+<div class="confianza">Confianza: {confianza:.2f}%</div>
+</div>""",
             unsafe_allow_html=True
         )
 
