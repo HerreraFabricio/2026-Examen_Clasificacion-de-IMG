@@ -63,6 +63,10 @@ Subes o tomas una imagen  →  El modelo de IA analiza la imagen  →  La app mu
 - **Tamaño:** ~170 MB (ligero y fácil de usar)
 - **Fuente alternativa:** `tensorflow.keras.datasets.cifar10`
 
+---
+## URL del proyecto
+https://josuefabricioherrera-examen-clasificar-img.streamlit.app/
+
 
 
 
