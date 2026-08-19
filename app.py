@@ -6,7 +6,7 @@ from PIL import Image
 
 
 st.set_page_config(
-    page_title="Clasificador de Imágenes CIFAR-10",
+    page_title="Clasificador de Imágenes CIFAR-10- Josue Fabricio Herrera",
     page_icon="🤖",
     layout="centered"
 )
